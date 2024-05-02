@@ -19,6 +19,7 @@
 #define __IO volatile 
 
 /* siehe unten bei RCC fuer erklaerung der structs*/
+
 typedef struct GPIOx_t{
 	__IO uint32_t GPIOx_MODER; 		
 	__IO uint32_t GPIOx_OTYPER;	
@@ -96,7 +97,6 @@ typedef struct TIMx_t{
 }TIMx_t;
 
 typedef struct USART_t{
-
     __IO uint32_t USART_SR;
     __IO uint32_t USART_DR;
     __IO uint32_t USART_BRR;
